@@ -1,0 +1,10 @@
+@mixin container-desktop {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@mixin hover-link {
+    color: $color-light-blue;
+    text-decoration: none;
+    cursor: pointer;
+}

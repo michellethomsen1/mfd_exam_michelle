@@ -1,0 +1,9 @@
+#header {
+    background-color: $color-light-blue;
+
+    header {
+        @include container-desktop;
+        text-align: left;
+        
+    }
+}

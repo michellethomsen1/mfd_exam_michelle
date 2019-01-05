@@ -1,18 +1,35 @@
 <template>
   <div id="app">
+    <MainHeader/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/product">Product</router-link> |
       <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>
+    <MainFooter/>
   </div>
 </template>
 
 <style lang="scss">
-//Import the scss styling
-@import "./assets/scss/main";
+  //Import the scss styling
+  @import "./assets/scss/main";
+</style>
 
+<script>
+  // @ is an alias to /src
+  import MainHeader from '@/components/MainHeader.vue';
+  import MainFooter from '@/components/MainFooter.vue';
+  
+  export default {
+    components: {
+      MainHeader,
+      MainFooter
+    }
+  }
+</script>
+
+<style lang="scss">
 #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
