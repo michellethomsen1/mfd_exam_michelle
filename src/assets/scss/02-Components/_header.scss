@@ -4,6 +4,88 @@
     header {
         @include container-desktop;
         text-align: left;
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 30px;
         
+        img {
+            margin: 10px 70px;
+        }
+
+        .basket-container {
+            width: 100%;
+
+            .login {
+                background-color: white;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+
+                button {
+                    @include btn-basket (white, 12px, $color-orange);
+                }
+            }
+
+            .basket {
+                background-color: $color-orange;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+
+                img {
+                    grid-column: 1 / 2;
+                    margin: 14px 12px 14px 25px;
+                }
+
+                .detail {
+                    grid-column: 2 / 5;
+                    font-family: $roboto;
+                    margin-top: 14px;
+
+                    .price {
+                        color: white;
+                        font-size: 18px;
+                    }
+
+                    .items {
+                        color: $color-yellow;
+                        font-size: 12px;
+                    }
+                }
+
+                .btn-view {
+                    grid-column: 1 / 3;
+                }
+
+                .btn-checkout {
+                    background-color: #e24602;
+                    grid-column: 3 / 5;
+                }
+
+                button {
+                    @include btn-basket ($color-orange, 11px, white);
+                }
+            }
+
+            .search {
+                form [type="text"] {
+                    background: white;
+                    font-size: 10px;
+                    color: black;
+                    border: none;
+                    font-weight: 700;
+                    font-family: $raleway;
+                    outline: none;
+                    padding: 15px;
+                    width: 216px;
+                }
+
+                button {
+                    background-color: $color-dark-grey;
+                    color: white;
+                    padding: 14px;
+                    border: none;
+                    outline: none;
+                }
+            }
+        }
     }
 }

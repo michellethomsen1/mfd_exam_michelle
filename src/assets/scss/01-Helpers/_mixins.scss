@@ -8,3 +8,23 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+@mixin btn-basket ($color, $size, $font-color) {
+    background-color: $color;
+    font-size: $size;
+    color: $font-color;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-family: $raleway;
+    font-weight: 600;
+
+    &:hover {
+        cursor: pointer;
+        background-color: $font-color;
+        color: $color;
+        outline: none;
+    }
+}
