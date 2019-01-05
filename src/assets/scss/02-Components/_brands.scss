@@ -1,0 +1,15 @@
+#brands {
+    background-color: $color-bg;
+    padding: 45px;
+
+    .container {
+        @include container-desktop;
+        background-color: white;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        color: #bababa;
+        font-family: $roboto;
+        font-size: 35px;
+        padding: 65px 0;
+    }
+}

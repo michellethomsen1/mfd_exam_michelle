@@ -74,7 +74,7 @@
 </template>
 
 <script>
-export default {
-  name: 'MainFooter'
-}
+  export default {
+    name: 'MainFooter'
+  }
 </script>

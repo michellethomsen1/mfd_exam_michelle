@@ -35,7 +35,7 @@
         
 
 <script>
-export default {
-  name: 'MainHeader'
-}
+    export default {
+        name: 'MainHeader'
+    }
 </script>

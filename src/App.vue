@@ -7,6 +7,7 @@
       <router-link to="/contact">Contact</router-link>
     </div>
     <router-view/>
+    <Brands/>
     <MainFooter/>
   </div>
 </template>
@@ -19,11 +20,13 @@
 <script>
   // @ is an alias to /src
   import MainHeader from '@/components/MainHeader.vue';
+  import Brands from '@/components/Brands.vue';
   import MainFooter from '@/components/MainFooter.vue';
   
   export default {
     components: {
       MainHeader,
+      Brands,
       MainFooter
     }
   }
