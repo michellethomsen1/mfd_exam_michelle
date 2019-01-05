@@ -1,0 +1,44 @@
+#nav-sidebar {
+    background-color: $color-light-blue;
+
+    button {
+        padding: 25px 40px;
+        width: 100%;
+        text-align: left;
+        font-family: $roboto;
+        font-size: 14px;
+        border: none;
+        outline: none;
+        background-color: $color-dark-grey;
+        color: white;
+
+        &:hover {
+            cursor: pointer;
+            color: $color-light-blue;
+        }
+    }
+
+    nav {
+
+        li {
+            padding: 8px 40px;
+
+            a {
+                color: black;
+                text-decoration: none;
+                font-family: $roboto;
+                font-size: 14px;
+                font-weight: 900;
+            }
+
+            &:hover {
+                background-color: $color-dark-grey;
+                cursor: pointer;
+
+                a {
+                    color: white !important;
+                }
+            }
+        }
+    }
+}

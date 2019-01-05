@@ -4,13 +4,13 @@
         <div class="container">
           <ul class="category">
             <h3>Category</h3>
-            <li><a href="#">Home</a></li>
+            <li><router-link to="/">Home</router-link></li>
             <li><a href="#">About us</a></li>
             <li><a href="#">Eshop</a></li>
             <li><a href="#">Features</a></li>
             <li><a href="#">New collections</a></li>
             <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><router-link to="/Contact">Contact</router-link></li>
           </ul>
 
           <ul class="account">

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
     <MainHeader/>
+    <NavSidebar/>
+    <TagsWidget/>
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/product">Product</router-link> |
@@ -20,12 +22,16 @@
 <script>
   // @ is an alias to /src
   import MainHeader from '@/components/MainHeader.vue';
+  import NavSidebar from '@/components/NavSidebar.vue';
+  import TagsWidget from '@/components/TagsWidget.vue';
   import Brands from '@/components/Brands.vue';
   import MainFooter from '@/components/MainFooter.vue';
   
   export default {
     components: {
       MainHeader,
+      NavSidebar,
+      TagsWidget,
       Brands,
       MainFooter
     }
@@ -33,13 +39,6 @@
 </script>
 
 <style lang="scss">
-#app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-align: center;
-    color: #2c3e50;
-  }
   #nav {
     padding: 30px;
     a {
