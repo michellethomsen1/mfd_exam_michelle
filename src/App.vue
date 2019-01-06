@@ -1,14 +1,16 @@
 <template>
   <div id="app">
     <MainHeader/>
-    <NavSidebar/>
-    <TagsWidget/>
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/product">Product</router-link> |
-      <router-link to="/contact">Contact</router-link>
+
+    <div class="grid-container">
+      <div class="sidebar">
+        <NavSidebar/>
+        <TagsWidget/>
+      </div>
+
+      <router-view/>
     </div>
-    <router-view/>
+
     <Brands/>
     <MainFooter/>
   </div>

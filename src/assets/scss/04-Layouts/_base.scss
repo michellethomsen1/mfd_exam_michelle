@@ -6,3 +6,10 @@
 body {
     background-color: $color-bg;
 }
+
+.grid-container {
+    @include container-desktop;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    grid-gap: 30px;
+}

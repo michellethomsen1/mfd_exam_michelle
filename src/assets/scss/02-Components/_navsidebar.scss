@@ -20,9 +20,11 @@
     }
 
     nav {
+        padding: 10px 0;
 
         li {
-            padding: 8px 40px;
+            padding: 10px 40px;
+            list-style: none;
 
             a {
                 color: black;
