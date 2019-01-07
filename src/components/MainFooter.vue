@@ -55,7 +55,7 @@
 
           <ul class="about">
             <h3>About us</h3>
-            <p>Our vision while creating Surfhouse was to deliver a surf-inspired boutique hotel which combines all of our favorite things: the beach lifestyle and local surf community, good vibes, traveling, and stewardship of our town.  </p>
+            <p>Surfhouse wants to deliver high quality stuff for surfing for good prices. Surfing is a combination of all our favorite things: The beach lifestyle, a local surf community, traveling and high waves.</p>
             
             <div class="contact-us">
               <li>Phone: <a href="#">1-999-342-9876</a></li>
