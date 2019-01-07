@@ -4,9 +4,9 @@
         {
             "id": "1",
             "productTitle": "Single thruster 2014",
-            "productPrice": 865.00,
+            "productPrice": "£.865.00",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
-            "productImg": "/images/singlethruster2014.png4",
+            "productImg": "/images/singlethruster2014.png",
             "productNew": true,
             "productHot": false
             
@@ -14,8 +14,8 @@
         {
             "id": "2",
             "productTitle": "Freestyle Wave FSW",
-            "productPrice": 770.50,
-            "productPriceBefore": 1270.15,
+            "productPrice": "£.770.50",
+            "productPriceBefore": "£.1270.15",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
             "productImg": "/images/freestylewave.png",
             "productNew": false,
@@ -24,7 +24,7 @@
         {
             "id": "3",
             "productTitle": "The White Collection SURFBOARD 2014",
-            "productPrice": 1580.70,
+            "productPrice": "£.1580.70",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
             "productImg": "/images/thewhitecollection.png",
             "productNew": false,
@@ -33,7 +33,7 @@
         {
             "id": "4",
             "productTitle": "OG SCALLOP SOLID",
-            "productPrice": 765.00,
+            "productPrice": "£.765.00",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
             "productImg": "/images/ogscallopsollid.jpg",
             "productNew": false,
@@ -42,7 +42,7 @@
         {
             "id": "5",
             "productTitle": "O'Neill Youth Reactor",
-            "productPrice": 49.99,
+            "productPrice": "£.49.99",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
             "productImg": "/images/oneillyouthreactor.jpg",
             "productNew": false,
@@ -51,7 +51,7 @@
         {
             "id": "6",
             "productTitle": "iROCKER CRUISER",
-            "productPrice": 1130.70,
+            "productPrice": "£.1130.70",
             "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
             "productImg": "/images/irockercruiser.jpg",
             "productNew": false,
