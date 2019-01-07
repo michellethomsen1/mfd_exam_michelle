@@ -1,163 +1,199 @@
 #product {
-    display: grid;
-    grid-template-columns: 4fr 5fr;
-    grid-gap: 30px;
+    .product {
+        display: grid;
+        grid-template-columns: 4fr 5fr;
+        grid-gap: 30px;
 
-    .product-images {
-        img {
-            width: 100%;
-            background-color: #eaeaea;
-            height: 370px;
-            object-fit: contain;
-        }
-
-        .product-images-slider {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 25px;
-
-            button {
-                background-color: transparent;
-                border: none;               
-                font-size: 30px;
-                transform: scaleY(2);
-                height: fit-content;
-                align-self: center;
-                color: $color-dark-grey;
-
-                &:hover {
-                    @include hover-link;
+        .product__images {
+            img {
+                width: 100%;
+                background-color: #eaeaea;
+                height: 370px;
+                object-fit: contain;
+            }
+    
+            .product__images__slider {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 25px;
+    
+                button {
+                    background-color: transparent;
+                    border: none;               
+                    font-size: 30px;
+                    transform: scaleY(2);
+                    height: fit-content;
+                    align-self: center;
+                    color: $color-dark-grey;
+    
+                    &:hover {
+                        @include hover-link;
+                    }
+                }
+    
+                img {
+                    width: 70px;
+                    height: 110px;
+    
+                    &:hover {
+                        opacity: 0.8;
+                        cursor: pointer;
+                    }
                 }
             }
-
-            img {
-                width: 70px;
-                height: 110px;
-
+        }
+    
+        .product__info {
+            padding-left: 15px;
+    
+            hr {
+                width: 400px;
+                color: $color-dark-grey;
+                margin: 20px auto;
+            }
+    
+            h1 {
+                font-family: $roboto;
+                font-size: 24px;
+                color: $color-dark-grey;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+    
+            h3 {
+                font-family: $roboto;
+                font-size: 22px;
+                color: $color-dark-grey;
+                font-weight: 500;
+                font-style: italic;
+            }
+    
+            h4 {
+                font-family: $roboto;
+                font-size: 12px;
+                color: $color-dark-grey;
+                margin-bottom: 10px;
+            }
+    
+            p {
+                font-family: $roboto;
+                font-size: 12px;
+                color: #707070;
+                margin-bottom: 10px;
+            }
+    
+            button {
+                border: none;
+                background-color: white;
+                padding: 10px 6px;
+                font-family: $roboto;
+                font-size: 12px;
+                color: $color-dark-grey;
+                margin-left: 10px;
+    
                 &:hover {
-                    opacity: 0.8;
                     cursor: pointer;
+                    color: $color-orange;
+                }
+            }
+    
+            .product__add {
+                display: flex;
+                justify-content: space-between;
+    
+                .product__add__quantity {
+                    input {
+                        padding: 10px 6px;
+                        text-align: center;
+                        width: 20px;
+                        font-family: $roboto;
+                        font-size: 12px;
+                        border: 1px solid #bababa;
+                        color: $color-dark-grey;
+                    }
+    
+                    button {
+                        background: transparent;
+                        font-family: "Roboto", sans-serif;
+                        font-size: 20px;
+                        color: #333333;
+                        margin: 0;
+                        padding: 5px;
+                        font-weight: 200;
+    
+                        &:hover {
+                            cursor: pointer;
+                            color: $color-orange;
+                            border: none;
+                            background-color: transparent;
+                        }
+                    }
+                }
+    
+                button {
+                    background-color: $color-orange;
+                    color: white;
+                    border: none;
+                    font-family: $roboto;
+                    padding: 18px 15px;
+    
+                    &:hover {
+                        background-color: white;
+                        color: $color-orange;
+                        border: 1px solid #bababa;
+                        cursor: pointer;
+                    }
+                }
+    
+                .product__add__share {
+                    a {
+                        text-decoration: none;
+                        font-family: $roboto;
+                        font-size: 12px;
+                        color: $color-dark-grey;
+                        line-height: 1.5;
+    
+                        &:hover {
+                            color: $color-orange;
+                            cursor: pointer;
+                        }
+                    }
                 }
             }
         }
     }
 
-    .product-info {
-        padding-left: 15px;
-
-        hr {
-            width: 400px;
-            color: $color-dark-grey;
-            margin: 20px auto;
-        }
-
-        h1 {
-            font-family: $roboto;
-            font-size: 24px;
-            color: $color-dark-grey;
-            font-weight: 700;
-            margin-bottom: 50px;
-        }
-
-        h3 {
-            font-family: $roboto;
-            font-size: 22px;
-            color: $color-dark-grey;
-            font-weight: 500;
-            font-style: italic;
-        }
-
-        h4 {
-            font-family: $roboto;
-            font-size: 12px;
-            color: $color-dark-grey;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-family: $roboto;
-            font-size: 12px;
-            color: #707070;
-            margin-bottom: 10px;
-        }
-
-        button {
-            border: none;
-            background-color: white;
-            padding: 10px 6px;
-            font-family: $roboto;
-            font-size: 12px;
-            color: $color-dark-grey;
-            margin-left: 10px;
-
-            &:hover {
-                cursor: pointer;
-                color: $color-orange;
-            }
-        }
-
-        .product-add {
-            display: flex;
-            justify-content: space-between;
-
-            .quantity {
-                input {
-                    padding: 10px 6px;
-                    text-align: center;
-                    width: 20px;
-                    font-family: $roboto;
-                    font-size: 12px;
-                    border: 1px solid #bababa;
-                    color: $color-dark-grey;
-                }
-
-                button {
-                    background: transparent;
-                    font-family: "Roboto", sans-serif;
-                    font-size: 20px;
-                    color: #333333;
-                    margin: 0;
-                    padding: 5px;
-                    font-weight: 200;
-
-                    &:hover {
-                        cursor: pointer;
-                        color: $color-orange;
-                        border: none;
-                        background-color: transparent;
-                    }
-                }
-            }
-
-            button {
-                background-color: $color-orange;
-                color: white;
+    .tabbar {
+        margin-top: 40px;
+        
+        .tabbar__tabs {
+            margin-left: 12px;
+            
+            .tabbar__tabs__single {
+                padding: 15px;
                 border: none;
                 font-family: $roboto;
-                padding: 18px 15px;
+                color: $color-dark-grey;
+                font-size: 12px;
+                background-color: transparent;
 
                 &:hover {
-                    background-color: white;
-                    color: $color-orange;
-                    border: 1px solid #bababa;
                     cursor: pointer;
+                    background-color: $color-light-blue;
+                }
+
+                &:focus {
+                    outline: none;
                 }
             }
+        }
 
-            .share {
-                a {
-                    text-decoration: none;
-                    font-family: $roboto;
-                    font-size: 12px;
-                    color: $color-dark-grey;
-                    line-height: 1.5;
-
-                    &:hover {
-                        color: $color-orange;
-                        cursor: pointer;
-                    }
-                }
-            }
+        .tabbar__details {
+            border: 1px solid #bababa;
+            padding: 12px;
+            font-family: $roboto;
+            font-size: 11px;
+            color: #808080;
         }
     }
 }

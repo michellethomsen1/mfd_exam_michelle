@@ -23,11 +23,11 @@
 
 <script>
   // @ is an alias to /src
-  import MainHeader from '@/components/MainHeader.vue';
-  import NavSidebar from '@/components/NavSidebar.vue';
-  import TagsWidget from '@/components/TagsWidget.vue';
-  import Brands from '@/components/Brands.vue';
-  import MainFooter from '@/components/MainFooter.vue';
+  import MainHeader from '@/components/MainHeader.vue'
+  import NavSidebar from '@/components/NavSidebar.vue'
+  import TagsWidget from '@/components/TagsWidget.vue'
+  import Brands from '@/components/Brands.vue'
+  import MainFooter from '@/components/MainFooter.vue'
   
   export default {
     components: {
