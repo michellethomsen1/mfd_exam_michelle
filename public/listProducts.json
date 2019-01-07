@@ -5,7 +5,7 @@
             "id": "1",
             "productTitle": "Single thruster 2014",
             "productPrice": "£.865.00",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
+            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face.",
             "productImg": "/images/singlethruster2014.png",
             "productNew": true,
             "productHot": false
@@ -16,7 +16,7 @@
             "productTitle": "Freestyle Wave FSW",
             "productPrice": "£.770.50",
             "productPriceBefore": "£.1270.15",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
+            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters but also for perfect experienced",
             "productImg": "/images/freestylewave.png",
             "productNew": false,
             "productHot": true
@@ -25,7 +25,7 @@
             "id": "3",
             "productTitle": "The White Collection SURFBOARD 2014",
             "productPrice": "£.1580.70",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
+            "productText": "This surfborad will give easy standing position. The white makes it fashionable. The board is for experienced surfers.",
             "productImg": "/images/thewhitecollection.png",
             "productNew": false,
             "productHot": false
@@ -34,8 +34,8 @@
             "id": "4",
             "productTitle": "OG SCALLOP SOLID",
             "productPrice": "£.765.00",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
-            "productImg": "/images/ogscallopsollid.jpg",
+            "productText": "The shorts is confortable and nothing in them is being too tight on you. They are perfect for surfer both when they are in action but also when they relaxing on the beach",
+            "productImg": "/images/ogscallopsollid.png",
             "productNew": false,
             "productHot": false
         },
@@ -43,8 +43,8 @@
             "id": "5",
             "productTitle": "O'Neill Youth Reactor",
             "productPrice": "£.49.99",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
-            "productImg": "/images/oneillyouthreactor.jpg",
+            "productText": "This wetsuit has durable velcro resistant and high stretch jersey and low water absorption. It is perfect for both cold and hot water",
+            "productImg": "/images/oneillyouthreactor.png",
             "productNew": false,
             "productHot": false
         },
@@ -52,8 +52,8 @@
             "id": "6",
             "productTitle": "iROCKER CRUISER",
             "productPrice": "£.1130.70",
-            "productText": "This surfborad will take you from your first ever surfing experience through to gliding down the unbroken wave face. It is perfect for starters",
-            "productImg": "/images/irockercruiser.jpg",
+            "productText": "This surfborad set includes all you need for padle surfing. It is perfect for starters. It will take you from your first ever surfing experience through to gliding down the unbroken wave face. ",
+            "productImg": "/images/irockercruiser.png",
             "productNew": false,
             "productHot": false
         }

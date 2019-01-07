@@ -79,6 +79,11 @@
     
                 .payments img {
                     margin-right: 10px;
+
+                    &:hover {
+                        cursor: pointer;
+                        opacity: 0.8;
+                    }
                 }
     
                 .contact-us {
@@ -87,14 +92,6 @@
     
                     li {
                         margin-top: 10px;
-                    }
-    
-                    .email-color {
-                        color: $color-yellow;
-    
-                        & a:hover{
-                            @include hover-link;
-                        }
                     }
                 }
             }

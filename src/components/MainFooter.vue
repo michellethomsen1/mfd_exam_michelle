@@ -59,7 +59,7 @@
             
             <div class="contact-us">
               <li>Phone: <a href="#">1-999-342-9876</a></li>
-              <li>E-mail: <a href="#"><span class="email-color">info@surfhouse.com</span></a></li>
+              <li>E-mail: <a href="#">info@surfhouse.com</a></li>
             </div>
           </ul>
         </div>
