@@ -1,11 +1,32 @@
 #product-section {
-    h1 {
-        font-family: $roboto;
-        font-size: 22px;
-        font-style: italic;
-        font-weight: 900;
-        color: $color-dark-grey;
-        margin-left: 25px;
-        margin-bottom: 30px;
+    .head-slider {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0 25px;
+
+        h1 {
+            font-family: $roboto;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 900;
+            color: $color-dark-grey;
+            margin-bottom: 30px;
+        }
+
+        .btn-slider {
+            text-align: right;
+
+            button {
+                background-color: transparent;
+                border: none;
+                padding: 0 10px;
+                font-size: 18px;
+                color: $color-dark-grey;
+
+                &:hover {
+                    @include hover-link;
+                }
+            }
+        }
     }
 }

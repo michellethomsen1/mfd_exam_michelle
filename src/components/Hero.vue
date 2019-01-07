@@ -9,8 +9,8 @@
                 <a href="#">BUY NOW</a>
             </div>
 
-            <button class="btn-slider"><i class="fas fa-angle-left"></i></button>
-            <button class="btn-slider"><i class="fas fa-angle-right"></i></button>
+            <button><i class="fas fa-angle-left"></i></button>
+            <button><i class="fas fa-angle-right"></i></button>
         </div>
     </div>
 </template>
