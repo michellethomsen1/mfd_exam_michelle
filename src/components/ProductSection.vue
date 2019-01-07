@@ -10,7 +10,13 @@
         </div>
 
         <div class="products">
+
             <div class="product-single" v-for="product in products" :key="product.id">
+                <div class="new" v-if="product.productNew == true"><p>NEW</p></div>
+                <div class="new" v-else style="display: none"></div>
+
+                <div class="hot" v-if="product.productHot == true"><p>HOT</p></div>
+                <div class="hot" v-else style="display: none"></div>
                 <picture>
                     <router-link :to="`/product/${product.id}`"><img :src="product.productImg"></router-link>
                 </picture>

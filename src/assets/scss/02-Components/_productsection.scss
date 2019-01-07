@@ -35,6 +35,42 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 30px;
 
+        .new {
+            height: 46px;
+            width: 46px;
+            background-color: $color-orange;
+            clip-path: polygon(0 0, 100% 100%, 100% 0);
+            position: absolute;
+            margin-left: 209px;
+            margin-top: -10px;
+
+            p {
+                font-family: $roboto;
+                font-size: 9px;
+                color: white;
+                margin: 10px 6px;
+                float: right;
+            }
+        }
+
+        .hot {
+            height: 46px;
+            width: 46px;
+            background-color: $color-yellow;
+            clip-path: polygon(0 0, 100% 100%, 100% 0);
+            position: absolute;
+            margin-left: 209px;
+            margin-top: -10px;
+
+            p {
+                font-family: $roboto;
+                font-size: 9px;
+                color: black;
+                margin: 10px 6px;
+                float: right;
+            }
+        }
+
         .product-single {
             background-color: white;
             padding: 10px;
