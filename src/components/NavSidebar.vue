@@ -1,7 +1,7 @@
 <template>
-    <div id="nav-sidebar">
-        <button class="menu_button" v-on:click="openMenu">MENU</button>
-        <nav id="navigation">
+    <div id="nav-sidebar" class="navigation">
+        <button class="menu_button" v-on:click="openNav">MENU</button>
+        <nav>
             <ul>
                 <li><a href="#">ABOUT</a></li>
                 <li><a href="#">APPAREL</a></li>
@@ -22,5 +22,16 @@
 <script>
     export default {
         name: 'NavSidebar',
+
+        methods: {
+            openNav: function () {
+                var menu = document.getElementById('nav-sidebar')
+                if (menu.className === 'navigation') {
+                    menu.className += ' responsive-nav'
+                } else {
+                    menu.className = 'navigation'
+                }
+            }
+        }
     }
 </script>

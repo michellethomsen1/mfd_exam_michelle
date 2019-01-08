@@ -88,8 +88,27 @@
     }
 
     #header {
+        margin-bottom: 0;
+
         header {
             grid-template-columns: 1fr 1fr;
+        }
+    }
+
+    #nav-sidebar {
+        margin: 0;
+        
+        nav {
+            display: none;
+        }
+    }
+
+    #nav-sidebar.responsive-nav {
+        position: relative;
+
+        nav {
+            display: block;
+            text-align: left;
         }
     }
 
@@ -157,6 +176,18 @@
             .basket-container {
                 display: none;
             }
+        }
+    }
+
+    #nav-sidebar {
+        button {
+            text-align: center;
+        }
+    }
+
+    #nav-sidebar.responsive-nav {
+        nav {
+            text-align: center;
         }
     }
 
