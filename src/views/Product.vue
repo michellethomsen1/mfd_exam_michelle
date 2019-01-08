@@ -88,7 +88,7 @@
           <p>The REVIEWS you see here. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable.</p>
         </div>
 
-        <div v-if="tabitem ===4">
+        <div v-if="tabitem === 4">
           <p>The PRODUCTS TAG is:<br><br>
           - Kitesurf <br>
           - Super <br>
