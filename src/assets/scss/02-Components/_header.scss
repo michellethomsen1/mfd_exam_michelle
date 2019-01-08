@@ -76,7 +76,7 @@
                     font-family: $raleway;
                     outline: none;
                     padding: 15px;
-                    width: 216px;
+                    width: 75%;
                 }
 
                 button {
@@ -85,6 +85,7 @@
                     padding: 14px;
                     border: none;
                     outline: none;
+                    width: 14%;
 
                     &:hover {
                         @include hover-link;

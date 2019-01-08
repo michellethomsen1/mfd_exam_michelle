@@ -2,7 +2,7 @@
     <div id="header">
         <header>
             <router-link to="/">
-                <img src="../assets/images/surfhouse-logo.png" alt="surfhouse logo">
+                <img class="logo" src="../assets/images/surfhouse-logo.png" alt="surfhouse logo">
             </router-link>
             
             <div class="basket-container">

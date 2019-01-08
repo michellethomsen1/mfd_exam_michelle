@@ -2,7 +2,7 @@
     <div id="footer">
       <footer>
         <div class="container">
-          <ul class="category">
+          <ul class="category footer-nav">
             <h3>Category</h3>
             <li><router-link to="/">Home</router-link></li>
             <li><a href="#">About us</a></li>
@@ -13,7 +13,7 @@
             <li><router-link to="/Contact">Contact</router-link></li>
           </ul>
 
-          <ul class="account">
+          <ul class="account footer-nav">
             <h3>Our Account</h3>
             <li><a href="">Your Account</a></li>
             <li><a href="">Personal information</a></li>
@@ -24,7 +24,7 @@
             <li><a href="">Search Terms</a></li>
           </ul>
 
-          <ul class="support">
+          <ul class="support footer-nav">
             <h3>Our Support</h3>
             <li><a href="">Site Map</a></li>
             <li><a href="">Search Terms</a></li>
